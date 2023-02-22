@@ -14,7 +14,9 @@ public class main {
                 System.out.print(caracter);
             }
             System.out.println(" ");
+
         }
+	System.out.println("La pirámide tiene una altura " + (altura%2==0)?"par" : "impar");
         sc.close();
     }
 }
