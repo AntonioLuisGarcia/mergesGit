@@ -4,6 +4,7 @@ public class main {
         Scanner sc = new Scanner(System.in);
         System.out.print("De que altura quieres la piramide");
         int altura = sc.nextInt();
+	System.out.println("Aqui tienes la pirámide de " + altura + " de altura.");
    
         for (int i = 1; i <= altura; i++) {
             for (int j = i; j <altura ; j++){
