@@ -15,6 +15,17 @@ public class main {
             }
             System.out.println(" ");
         }
+	System.out.println("La altura " + (esPrimo(altura)?"es un numero primo":"no es un numero primo");
         sc.close();
     }
+
+	public static boolean esPrimo(int n) {
+	     for (int i = 2; i <= Math.sqrt(n); i++) {
+                  if (n % i == 0) {
+                     return false;
+        	  }
+    	     }
+
+             return true;
+	}
 }
